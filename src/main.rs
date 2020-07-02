@@ -1,8 +1,5 @@
 use combine::char::{letter, string};
-use combine::{
-    attempt, between, chainl1, many1, parser, satisfy, ParseError, ParseResult, Parser, Stream,
-    StreamOnce,
-};
+use combine::{between, many1, ParseError, ParseResult, Parser, Stream};
 
 fn main() {
     let mut input = "r###hello#world###";
